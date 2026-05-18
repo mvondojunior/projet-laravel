@@ -74,8 +74,8 @@
                     </div>
 
                     <p>
-                        {{ $campaign->current_amount }} FCFA /
-                        {{ $campaign->goal_amount }} FCFA
+                        {{ $campaign->current_amount }} CFA /
+                        {{ $campaign->goal_amount }} CFA
                     </p>
 
                     <a href="/campaign/{{ $campaign->id }}" class="btn btn-primary w-100">
